@@ -13,6 +13,12 @@ Make sure you fill in all the relavent information and read the comments <!---->
 
 If you're looking for some help, feel free to join the W3 Schools discord and find me there with the same user name. [W3 Schools Discord](https://discord.gg/VtmwETMZP5). I and others are always excited to help you problem solve web design and development.
 
+## Validation Tools
+- [Google Rich Results Test](https://search.google.com/test/rich-results) - Tool provided by Google for testing and previewing how a website's search results will appear.
+- [Schema.org Validator](https://validator.schema.org/) - Validator for structured data markup according to Schema.org standards.
+- [JSON Schema Validator](https://www.jsonschemavalidator.net/) - Online tool for validating JSON schemas.
+- [Browseo](https://www.browseo.net/) - Web app for analyzing how search engines see a webpage.
+
 ## Description
 
 "Schema.org offers a comprehensive set of shared vocabularies for webmasters to annotate their pages in a manner understandable by major search engines such as Google, Microsoft, Yandex, and Yahoo!
