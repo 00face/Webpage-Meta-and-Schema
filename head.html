@@ -1,4 +1,12 @@
 <head>
+    <!-- Page encoding -->
+    <meta charset="UTF-8">
+    <meta property="og:type" content="website"> <!--<meta property="og:site_name" content="European Travel, Inc.">-->
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Allows you to specify the author of the content -->
+    <meta name="author" content="Your Name">
+    
     <!-- Title Tag -->
     <title>Your Page Title</title>
 
@@ -41,7 +49,40 @@
     <meta name="twitter:card" content="From Web Design to Brand Development. So easy we make you say, ha!">
     <meta name="twitter:title" content="Your Page Title">
     <meta name="twitter:image" content="https://www.example.com/image.jpg">
+    <meta name="twitter:site" content="@example">
+    <meta name="twitter:creator" content="@yourtwitterhandle">
+    <meta name="twitter:image:alt" content="Alt text for image">
 
+    <!-- Pinterest Meta Tags -->
+    <!-- Pinterest Data Attributes for Images -->
+    <!-- data-pin-url: This attribute lets you set the click-through link for pins. -->
+    <img src="blog-post-image.jpg" data-pin-url="http://www.example.com/blog-post-permalink.html">
+
+    <!-- data-pin-description: This attribute lets you set a default Pinterest description for an image. -->
+    <img src="blog-post-image.jpg" data-pin-description="Greatest Pin of all time, #A+">
+
+    <!-- data-pin-media: This attribute lets you specify an alternate version of an image for Pinterest. -->
+    <img src="blog-post-image.jpg" data-pin-media="high-res-blog-post-image.jpg">
+
+    <!-- data-pin-id: This attribute gives a boost to “social proof” by increasing the repin count on the site owner’s pins. -->
+    <img src="blog-post-image.jpg" data-pin-id="ID NUMBER HERE">
+
+    <!--Facebook Meta Tags-->
+    <meta property="fb:app_id" content="your_app_id" />
+    <!-- Open Graph Video URL -->
+    <meta property="og:video" content="URL_for_the_video">
+    <!-- The URL for the video. If you want the video to play in-line in Feed, use the https:// URL if possible. -->
+    <!-- Equivalent to og:video -->
+    <meta property="og:video:url" content="URL_for_the_video">
+    <!-- Secure URL for the video. Include this even if you set the secure URL in og:video. -->
+    <meta property="og:video:secure_url" content="Secure_URL_for_the_video">
+    <!-- MIME type of the video. Either application/x-shockwave-flash or video/mp4. -->
+    <meta property="og:video:type" content="video/mp4">
+    <!-- Width of video in pixels. This property is required for videos. -->
+    <meta property="og:video:width" content="Width_in_pixels">
+    <!-- Height of video in pixels. This property is required for videos. -->
+    <meta property="og:video:height" content="Height_in_pixels">
+    
     <!-- SEO and Web Page Searchability Properties -->
     <meta name="geo.region" content="US-IL">
     <meta name="geo.placename" content="Chicago">
@@ -74,6 +115,10 @@
     <meta property="og:url" content="https://www.example.com">
     <!-- Open Graph Image -->
     <meta property="og:image" content="https://www.example.com/image.jpg">
+    <!-- Specify the width of the Open Graph image,-->
+    <meta property="og:image:width" content="1200">
+    <!-- Specify the height of the Open Graph image,-->
+    <meta property="og:image:height" content="630">
     <!-- Open Graph Site Name -->
     <meta property="og:site_name" content="Your Website Name">
     <!-- Open Graph Locale -->
@@ -89,6 +134,7 @@
     <!-- Open Graph Article Tags -->
     <meta property="article:tag" content="Tag1">
     <meta property="article:tag" content="Tag2">
+
 
     <!-- SEO and Web Page Searchability Properties -->
     <!-- Breadcrumb -->
