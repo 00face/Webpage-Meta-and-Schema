@@ -2,6 +2,9 @@
 Webpage Meta and Schema for SEO
 
 # Schematic HTML Markup
+Make sure you fill in all the relavent information and read the comments <!---->
+
+If you're looking for some help, feel free to join the W3 Schools discord and find me there with the same user name. [W3 Schools Discord](https://discord.gg/VtmwETMZP5). I and others are always excited to help you problem solve web design and development.
 
 ## Description
 
