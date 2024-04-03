@@ -1,1 +1,41 @@
+<!-- Pinterest Pin Meta
+There are four Pinterest-specific data attributes for images.-->
 
+<!-- Pinterest Data Attributes for Images -->
+<!-- data-pin-url: This attribute lets you set the click-through link for pins. -->
+<img src="blog-post-image.jpg" data-pin-url="http://www.example.com/blog-post-permalink.html">
+
+<!-- data-pin-description: This attribute lets you set a default Pinterest description for an image. -->
+<img src="blog-post-image.jpg" data-pin-description="Greatest Pin of all time, #A+">
+
+<!-- data-pin-media: This attribute lets you specify an alternate version of an image for Pinterest. -->
+<img src="blog-post-image.jpg" data-pin-media="high-res-blog-post-image.jpg">
+
+<!-- data-pin-id: This attribute gives a boost to “social proof” by increasing the repin count on the site owner’s pins. -->
+<img src="blog-post-image.jpg" data-pin-id="ID NUMBER HERE">
+
+<!-- How Not to Get Pinned -->
+<!-- Meta Tag: Whole Site or Whole Page Pinterest Blocking -->
+<meta name="pinterest" content="nopin" />
+<!-- This is the Pinterest nuclear option — if you add this meta tag to the head of your site or page, none of the images can be pinned through the official sharing channels. -->
+<!-- By default the Pinterest window will show this message when someone tries to Pin from a page with the nopin meta tag: -->
+<!-- “This site doesn’t allow Pinning to Pinterest. Please contact the owner with any questions. Thanks for visiting!” -->
+<!-- You can replace that with your own message as a description attribute. -->
+<meta name="pinterest" content="nopin" description="your custom nopin message here" />
+
+<!-- Image Attribute: Per-Image Pinterest Blocking -->
+<img src="image.png" nopin="nopin">
+<!-- If you want to block pinning for some of your images, but not all of them, you can use the nopin image attribute. -->
+<!-- To block pinning of an individual image, add nopin="nopin" to the image element. -->
+
+<!-- Blocking the Hover Button With the “Nohover” Meta Tag -->
+<meta name="pinterest" content="nohover" />
+<!-- By default, Pinterest’s browser extension adds a “Pin It” button to the upper left corner of an image on hover if all of these three things are true: -->
+<!-- The image is in a pinnable format. -->
+<!-- The image is at least 80x80px. -->
+<!-- The image does not have the nopin attribute. -->
+<!-- This tag only disables the hover button. It does not prevent pins from the page — only the nopin meta tag and attribute can do that. -->
+
+<!-- Blocking Rich Pins -->
+<!-- If you’re approved for Rich Pins but want to block Rich Pins on a page, you can add this meta tag to the page head: -->
+<meta name="pinterest-rich-pin" content="false" />
